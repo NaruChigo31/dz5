@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+}
+
+.text-readmore{
+    color: rgb(125, 165, 56);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+
+.text-readmore:hover{
+    color: rgb(162, 223, 56);
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    border: 2px solid rgb(190, 180, 82);
+    background-color: bisque;
+    margin-top: 150px;
+}
